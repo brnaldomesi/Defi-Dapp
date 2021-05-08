@@ -188,7 +188,7 @@ const Referrals: React.FC = () => {
               </LinkData>
 
               <Line/>
-              <ValueText>https://pantherswap.com/?ref=96voyrbwp2j4fn939n4vd5zktbvqjn54mjgg065nj</ValueText>
+              <ValueText>https://mountaindefi.com/?ref=96voyrbwp2j4fn939n4vd5zktbvqjn54mjgg065nj</ValueText>
             </ReferralLink>
             </>
           ) : (

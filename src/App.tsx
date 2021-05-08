@@ -20,10 +20,7 @@ const Farms3 = lazy(() => import('./views/Layer/Farms'))
 const Lottery = lazy(() => import('./views/Lottery'))
 const Referrals = lazy(() => import('./views/Referrals'))
 const Pools = lazy(() => import('./views/Pools'))
-const Ifos = lazy(() => import('./views/Ifos'))
 const NotFound = lazy(() => import('./views/NotFound'))
-const Nft = lazy(() => import('./views/Nft'))
-const Gaming = lazy(() => import('./views/Gaming'))
 // const Layered = lazy(() => import('./views/Layered'))
 const Roadmap = lazy(() => import('./views/Roadmap'))
 const Whitepaper = lazy(() => import('./views/Whitepaper'))
@@ -75,9 +72,6 @@ const App: React.FC = () => {
             <Route path="/supersaiyanpool">
              <Pools />
             </Route>
-            <Route path="/Gaming">
-              <Gaming />
-            </Route>
             <Route path="/Whitepaper">
               <Whitepaper />
             </Route>
@@ -90,9 +84,6 @@ const App: React.FC = () => {
             {/* <Route path="/Layered">
               <Layered />
             </Route> */}
-            <Route path="/ifo">
-             <Ifos />
-            </Route>
             {/* <Route path="/nft"> */}
             {/*  <Nft /> */}
             {/* </Route> */}
@@ -100,9 +91,6 @@ const App: React.FC = () => {
             {/* <Route path="/staking"> */}
             {/*  <Redirect to="/pools" /> */}
             {/* </Route> */}
-            <Route path="/Nft">
-              <Nft />
-            </Route>
             <Route path="/Roadmap">
               <Roadmap />
             </Route>

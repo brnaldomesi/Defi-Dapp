@@ -31,24 +31,14 @@ const config: MenuEntry[] = [
     href: '/nodes',
   },
   {
-    label: 'Layer 1',
+    label: 'Furnace',
     icon: 'LayerIcon',
     href: '/layer/info',
   },
   {
-    label: 'Super Saiyan Pool',
+    label: 'Overlooks',
     icon: 'PoolIcon',
     href: '/supersaiyanpool',
-  },
-  {
-    label: 'IFO',
-    icon: 'IfoIcon',
-    href: '/ifo',
-  },
-  {
-    label: 'Nft',
-    icon: 'NftIcon',
-    href: '/Nft',
   },
   {
     label: 'Lottery',
@@ -61,43 +51,38 @@ const config: MenuEntry[] = [
     href: '/referrals',
   },
   {
-    label: 'Gaming App',
-    icon: 'NftIcon',
-    href: '/Gaming',
-  },
-  {
-    label: 'DBALL Info',
+    label: 'Coal info',
     icon: 'InfoIcon',
     items: [
       {
         label: 'BSC Scan',
-        href: 'https://bscscan.com/token/0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9',
+        href: 'https://bscscan.com/token/0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8',
       },
       {
         label: 'Price Graph',
-        href: 'https://dex.guru/token/0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9-bsc',
+        href: '#',
       },
       {
         label: 'DApp Radar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/dragonball-finance',
+        href: '#',
       },
     ],
   },
   {
-    label: 'SENZU Info',
+    label: 'Diamond Info',
     icon: 'InfoIcon',
     items: [
       {
         label: 'BSC Scan',
-        href: 'https://bscscan.com/token/0xcBA1813Ede683333020cedea7C3b63FbaC28e78e',
+        href: '#',
       },
       {
         label: 'Price Graph',
-        href: 'https://dex.guru/token/0xcBA1813Ede683333020cedea7C3b63FbaC28e78e-bsc',
+        href: '#',
       },
       {
         label: 'DApp Radar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/dragonball-finance',
+        href: 'https://dappradar.com/binance-smart-chain/defi/',
       },
     ],
   },
@@ -107,31 +92,27 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/DragonBallFinance',
+        href: 'https://github.com',
       },
       {
         label: 'Docs',
-        href: 'https://docs.dragonballfinance.org/',
+        href: 'https://docs.mountaindefi.com/',
       },
       {
         label: 'Blog',
-        href: 'https://dragonballfinance.medium.com/',
-      },
-      {
-        label: 'Whitepaper',
-        href: 'https://dragonballfinance.org/Whitepaper.pdf',
+        href: 'https://mountaindefi.medium.com/',
       },
     ],
   },
   {
     label: 'Roadmap',
     icon: 'RoadmapIcon',
-    href: 'https://dragonballfinance.org/Roadmap',
+    href: 'https://mountaindefi.com/Roadmap',
   },
   {
     label: 'Techrate Audit',
     icon: 'AuditIcon',
-    href: 'https://dragonballfinance.org/Dball.pdf',
+    href: 'https://mountaindefi.org/Coal.pdf',
   },
 ]
 

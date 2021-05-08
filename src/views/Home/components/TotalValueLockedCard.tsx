@@ -45,7 +45,7 @@ const TotalValueLockedCard = () => {
           </Row>
             
           <Row>
-            <Text fontSize="20px" color="textSubtle">Across Layer 1</Text>
+            <Text fontSize="20px" color="textSubtle">Across Furnace</Text>
             <CardValue fontSize="20px" value={totalValue3.toNumber()} prefix="$" decimals={2}/>
           </Row>
           

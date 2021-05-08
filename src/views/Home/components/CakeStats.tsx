@@ -44,19 +44,19 @@ const CakeStats = () => {
           {TranslateString(534, 'Egg Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total DBALL Supply')}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Total Coal Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(5360, 'DBALL Price')}</Text>
+          <Text fontSize="14px">{TranslateString(5360, 'Coal Price')}</Text>
           <CardValue fontSize="14px" value={eggPrice.toNumber()} decimals={2} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(9990, 'DBALL Market Cap')}</Text>
+          <Text fontSize="14px">{TranslateString(9990, 'Coal Market Cap')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total DBALL Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(538, 'Total Coal Burned')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
