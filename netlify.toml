@@ -1,0 +1,4 @@
+[build]
+  [context.deploy-preview]
+    ignore = "if [[ $HEAD == *feature/* ]]; then exit 1; else exit 0; fi"
+    command = "CI= npm run build"

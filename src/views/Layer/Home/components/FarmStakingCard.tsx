@@ -1,0 +1,105 @@
+import React, { useState, useCallback } from 'react'
+import styled from 'styled-components'
+import { Heading, Card, CardBody, Button } from '@pancakeswap-libs/uikit'
+import { useWallet } from '@binance-chain/bsc-use-wallet'
+import useI18n from 'hooks/useI18n'
+import BigNumber from 'bignumber.js/bignumber'
+import { useAllHarvest3 } from 'hooks/useHarvest'
+import { useFarms3WithBalance } from 'hooks/useFarmsWithBalance'
+import UnlockButton from 'components/UnlockButton'
+import CakeHarvestBalance from './CakeHarvestBalance'
+import CakeWalletBalance from './CakeWalletBalance'
+import { useAllEarnings3 } from '../../../../hooks/useAllEarnings'
+import { usePrice3CakeBusd } from '../../../../state/hooks'
+import { getCake3Address } from '../../../../utils/addressHelpers'
+import useTokenBalance from '../../../../hooks/useTokenBalance'
+import { getBalanceNumber } from '../../../../utils/formatBalance'
+
+const StyledFarmStakingCard = styled(Card)`
+  background-image: url('/images/egg/2a.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  min-height: 376px;
+`
+
+const Block = styled.div`
+  margin-bottom: 16px;
+`
+
+const CardImage = styled.img`
+  margin-bottom: 16px;
+`
+
+const Label = styled.div`
+  color: ${({ theme }) => theme.colors.textSubtle};
+  font-size: 14px;
+`
+
+const Actions = styled.div`
+  margin-top: 24px;
+`
+
+const FarmedStakingCard = () => {
+  const [pendingTx, setPendingTx] = useState(false)
+  const { account } = useWallet()
+  const TranslateString = useI18n()
+  const farmsWithBalance = useFarms3WithBalance()
+  const cakeBalance = getBalanceNumber(useTokenBalance(getCake3Address()))
+  const eggPrice = usePrice3CakeBusd().toNumber()
+  const earningsSum = farmsWithBalance.reduce((accum, farm) => {
+    return accum + new BigNumber(farm.balance).div(new BigNumber(10).pow(18)).toNumber()
+  }, 0)
+  const balancesWithValue = farmsWithBalance.filter((balanceType) => balanceType.balance.toNumber() > 0)
+
+  const { onReward } = useAllHarvest3(balancesWithValue.map((farmWithBalance) => farmWithBalance.pid))
+
+  const harvestAllFarms = useCallback(async () => {
+    setPendingTx(true)
+    try {
+      await onReward()
+    } catch (error) {
+      // TODO: find a way to handle when the user rejects transaction or it fails
+    } finally {
+      setPendingTx(false)
+    }
+  }, [onReward])
+
+  return (
+    <StyledFarmStakingCard>
+      <CardBody>
+        <Heading size="xl" mb="24px">
+          {TranslateString(5420, 'Mines & Staking')}
+        </Heading>
+        <CardImage src="/images/egg/2.png" alt="cake logo" width={64} height={64} />
+        <Block>
+          <Label>{TranslateString(5440, 'SENZU to Harvest')}</Label>
+          <CakeHarvestBalance earningsSum={earningsSum}/>
+          <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
+        </Block>
+        <Block>
+          <Label>{TranslateString(5460, 'SENZU in Wallet')}</Label>
+          <CakeWalletBalance cakeBalance={cakeBalance} />
+          <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
+        </Block>
+        <Actions>
+          {account ? (
+            <Button
+              id="harvest-all"
+              disabled={balancesWithValue.length <= 0 || pendingTx}
+              onClick={harvestAllFarms}
+              fullWidth
+            >
+              {pendingTx
+                ? TranslateString(5480, 'Collecting SENZU')
+                : TranslateString(9990, `Harvest all (${balancesWithValue.length})`)}
+            </Button>
+          ) : (
+            <UnlockButton fullWidth />
+          )}
+        </Actions>
+      </CardBody>
+    </StyledFarmStakingCard>
+  )
+}
+
+export default FarmedStakingCard
