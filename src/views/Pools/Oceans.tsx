@@ -79,15 +79,15 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xxl" mb="16px">
-            {TranslateString(282, 'Super Saiyan Pool')}
+            {TranslateString(282, 'LookOvers')}
           </Heading>
           <ul>
-            <li>{TranslateString(580, 'Stake DBALL to earn new tokens.')}</li>
+            <li>{TranslateString(580, 'Stake Coal to earn new tokens.')}</li>
             <li>{TranslateString(404, 'You can unstake at any time.')}</li>
             <li>{TranslateString(406, 'Rewards are calculated per block.')}</li>
           </ul>
         </div>
-        <img src="/images/egg/14.png" alt="super saiyan icon" width={200} height={218} />
+        <img src="/images/egg/14.png" alt="lookovers icon" width={200} height={218} />
       </Hero>
       <PoolTabButtons />
       <Divider />

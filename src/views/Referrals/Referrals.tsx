@@ -1,10 +1,11 @@
 import React, { useState,useCallback } from 'react'
 import styled from 'styled-components'
-import { Card, CardBody,Text,Heading,Button  } from '@pancakeswap-libs/uikit'
+import { Card, CardBody,Text,Heading,Button,Link  } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import UnlockButton from 'components/UnlockButton'
+
 
 
 const Hero = styled.div`
@@ -143,15 +144,21 @@ float:right;
 margin: 12px 21px;
 `
 
+const LinkReferral=styled(Link)`
+margin: 2% 4%;
+`
+
 
 const Referrals: React.FC = () => {
-  const TranslateString = useI18n()
-  const { account } = useWallet()
-  const [copyText, setCopyText] = useState('')
+  const TranslateString = useI18n();
+  const { account } = useWallet();
+  const link=`https://mountaindefi.com/?ref=${account}`;
+ 
 
-  const copiedText = useCallback(async (_a) => {
-    console.log('copy value',navigator.clipboard)
-  },[])
+  const copiedText = ()=>{
+    const selectedAddress = account;
+    navigator.clipboard.writeText(selectedAddress);
+  }
 
   return (
       <div>
@@ -188,7 +195,7 @@ const Referrals: React.FC = () => {
               </LinkData>
 
               <Line/>
-              <ValueText>https://mountaindefi.com/?ref=96voyrbwp2j4fn939n4vd5zktbvqjn54mjgg065nj</ValueText>
+              <LinkReferral href={link} >{link}</LinkReferral>
             </ReferralLink>
             </>
           ) : (

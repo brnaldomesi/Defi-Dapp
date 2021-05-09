@@ -72,12 +72,12 @@ const FarmedStakingCard = () => {
         </Heading>
         <CardImage src="/images/egg/2.png" alt="cake logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'DBALL to Harvest')}</Label>
+          <Label>{TranslateString(544, 'Coal to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>
           <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'DBALL in Wallet')}</Label>
+          <Label>{TranslateString(546, 'Coal in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
           <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
         </Block>

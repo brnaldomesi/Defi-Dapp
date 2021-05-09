@@ -47,7 +47,6 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
 }) => {
   const TranslateString = useI18n()
   const liquidityUrlPathParts = getLiquidityUrlPathParts({ quoteTokenAdresses, quoteTokenSymbol, tokenAddresses })
-
   return (
     <Wrapper>
       <Flex justifyContent="space-between">

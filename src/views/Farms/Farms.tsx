@@ -105,17 +105,17 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn DBALL')
+            TranslateString(10002, 'Stake tokens to earn Coal')
             :
-          TranslateString(320, 'Stake LP tokens to earn DBALL')
+          TranslateString(320, 'Stake LP tokens to earn Coal')
         }
       </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
+      {/* <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         {TranslateString(10000, 'Deposit Fee will be used to buyback DBALL')}
-      </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
+      </Heading> */}
+      {/* <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         All Mines and Nodes have 2% Unstaking Fee
-      </Heading>
+      </Heading> */}
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>
         <Divider />

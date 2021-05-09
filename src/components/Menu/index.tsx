@@ -13,7 +13,6 @@ const Menu = (props) => {
   const { isDark, toggleTheme } = useTheme()
   const cakePriceUsd = usePriceCakeBusd()
   const cakePrice2Usd = usePrice3CakeBusd()
-
   return (
     <UikitMenu
       account={account}

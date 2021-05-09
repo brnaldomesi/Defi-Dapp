@@ -6,7 +6,7 @@ declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */
   export interface DefaultTheme extends PancakeTheme {}
 }
-
+// 
 const GlobalStyle = createGlobalStyle`
   * {
     font-family: 'Kanit', sans-serif;
@@ -23,6 +23,10 @@ const GlobalStyle = createGlobalStyle`
   }
   button{
     background-color: #d6af7f !important; 
+  }
+  a,div{
+    svg{fill: ${({ theme }) => theme.isDark ? "#c9c4d4" : "#452A7A"} !important;;}
+    div{color: ${({ theme }) => theme.isDark ? "#c9c4d4" : "#452A7A"} !important;}
   }
 `
 
