@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn MountainDeFi"
+        "text": "Stake LP tokens to earn Coal"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake MountainDeFi, get SYRUP."
+        "text": "Stake Coal, get SYRUP."
       }
     },
     {
@@ -765,7 +765,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake MountainDeFi to earn new tokens."
+        "text": "Stake Coal to earn new tokens."
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn MountainDeFi"
+        "text": "Stake tokens to earn Coal"
       }
     },
     {
