@@ -129,7 +129,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, senzuPric
     : '-'
 
   const lpLabel = farm.lpSymbol
-  const earnLabel = 'DBALL'
+  const earnLabel = 'Coal'
 
   
     const farmAPY = farm.apy && farm.apy.times(new BigNumber(100)).toNumber().toLocaleString(undefined, {
@@ -146,7 +146,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, senzuPric
 
   return (
     <FCard>
-      {farm.tokenSymbol === 'DBALL' && <StyledCardAccent />}
+      {farm.tokenSymbol === 'Coal' && <StyledCardAccent />}
       <CardHeading
         lpLabel={lpLabel}
         multiplier={farm.multiplier}

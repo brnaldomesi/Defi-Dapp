@@ -26,8 +26,8 @@ export enum QuoteToken {
   'TWT' = 'TWT',
   'USDT' = 'USDT',
   'CAKE2' = 'CAKE2',
-  'SENZU' = 'SENZU',
-  'DBALL'='DBALL',
+  'SENZU' = 'Diamond',
+  'DBALL'='Coal',
 }
 
 export enum PoolCategory {

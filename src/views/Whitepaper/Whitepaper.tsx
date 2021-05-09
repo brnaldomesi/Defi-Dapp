@@ -54,7 +54,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <iframe title="Whitepaper" src="https://drive.google.com/file/d/19gngLMvFfpxdfk6MB0scorASWpNz7VNa/preview" width="1000" height="550" />
+        <iframe title="Whitepaper" src="#" width="1000" height="550" />
       </Hero>
     </Page>
   )

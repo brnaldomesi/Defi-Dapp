@@ -5,12 +5,12 @@ const farms3: Farm3Config[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'SENZU-BUSD LP',
+    lpSymbol: 'Diamond-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0xcb8e10cd31ebb2633425cd4f579221ad126da040',
     },
-    tokenSymbol: 'SENZU',
+    tokenSymbol: 'Diamond',
     tokenAddresses: {
       97: '',
       56: '0xcBA1813Ede683333020cedea7C3b63FbaC28e78e',
@@ -21,12 +21,12 @@ const farms3: Farm3Config[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'SENZU-BNB LP',
+    lpSymbol: 'Diamond-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xc6d0aebc95b7cfee7c0212cf5a1d0e00e9209fa4',
     },
-    tokenSymbol: 'SENZU',
+    tokenSymbol: 'Diamond',
     tokenAddresses: {
       97: '',
       56: '0xcBA1813Ede683333020cedea7C3b63FbaC28e78e',
@@ -37,15 +37,15 @@ const farms3: Farm3Config[] = [
   {
     pid: 3,
     risk: 5,
-    lpSymbol: 'DBALL-BUSD LP',
+    lpSymbol: 'Coal-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x55d06D963CDc4405E204FB1585b45b5E8e353719',
+      56: '0x176F792CE67C7f21323DeeefC734cca960795780',
     },
-    tokenSymbol: 'DBALL',
+    tokenSymbol: 'Coal',
     tokenAddresses: {
       97: '',
-      56: '0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9',
+      56: '0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -53,15 +53,15 @@ const farms3: Farm3Config[] = [
   {
     pid: 4,
     risk: 5,
-    lpSymbol: 'DBALL-BNB LP',
+    lpSymbol: 'Coal-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x3330Bde1FfB5E358FCadfA266f98c95D7D5DC9B9',
     },
-    tokenSymbol: 'DBALL',
+    tokenSymbol: 'Coal',
     tokenAddresses: {
       97: '',
-      56: '0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9',
+      56: '0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -118,12 +118,12 @@ const farms3: Farm3Config[] = [
     pid: 2,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'SENZU',
+    lpSymbol: 'Diamond',
     lpAddresses: {
       97: '',
       56: '0xcb8e10cd31ebb2633425cd4f579221ad126da040', // VIKING-BUSD LP
     },
-    tokenSymbol: 'SENZU',
+    tokenSymbol: 'Diamond',
     tokenAddresses: {
       97: '',
       56: '0xcBA1813Ede683333020cedea7C3b63FbaC28e78e',
@@ -135,15 +135,15 @@ const farms3: Farm3Config[] = [
     pid: 5,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'DBALL',
+    lpSymbol: 'Coal',
     lpAddresses: {
       97: '',
-      56: '0x55d06d963cdc4405e204fb1585b45b5e8e353719', // VIKING-BUSD LP
+      56: '0x176F792CE67C7f21323DeeefC734cca960795780', // VIKING-BUSD LP
     },
-    tokenSymbol: 'DBALL',
+    tokenSymbol: 'Coal',
     tokenAddresses: {
       97: '',
-      56: '0xceb2f5e9c7f2d3bcd12a7560d73c56f3396af3f9',
+      56: '0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,

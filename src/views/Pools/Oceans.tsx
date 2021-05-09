@@ -79,7 +79,7 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xxl" mb="16px">
-            {TranslateString(282, 'LookOvers')}
+            {TranslateString(282, 'Overlooks')}
           </Heading>
           <ul>
             <li>{TranslateString(580, 'Stake Coal to earn new tokens.')}</li>

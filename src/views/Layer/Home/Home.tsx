@@ -76,7 +76,7 @@ const Home: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xxl" mb="16px">
-            Layer 1
+            Furnace
           </Heading>
           <ul>
             <li>{TranslateString(5800, 'Layered Mining is highly volatile')}</li>

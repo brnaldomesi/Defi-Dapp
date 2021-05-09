@@ -26,7 +26,7 @@ const Menu = (props) => {
       cakePriceUsd={cakePriceUsd.toNumber()}
       cakePrice2Usd={cakePrice2Usd.toNumber()}
       links={config}
-      priceLink="https://bscscan.com/token/0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9"
+      priceLink="https://bscscan.com/token/0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8"
       priceLink2="https://bscscan.com/token/0xcBA1813Ede683333020cedea7C3b63FbaC28e78e"
       {...props}
     />

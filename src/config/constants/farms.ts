@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'DBALL-BUSD LP',
+    lpSymbol: 'Coal-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x55d06D963CDc4405E204FB1585b45b5E8e353719',
     },
-    tokenSymbol: 'DBALL',
+    tokenSymbol: 'Coal',
     tokenAddresses: {
       97: '',
-      56: '0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9',
+      56: '0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'DBALL-BNB LP',
+    lpSymbol: 'Coal-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x3330Bde1FfB5E358FCadfA266f98c95D7D5DC9B9',
     },
-    tokenSymbol: 'DBALL',
+    tokenSymbol: 'Coal',
     tokenAddresses: {
       97: '',
-      56: '0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9',
+      56: '0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -37,15 +37,15 @@ const farms: FarmConfig[] = [
   {
     pid: 29,
     risk: 5,
-    lpSymbol: 'DBALL-SENZU LP',
+    lpSymbol: 'Coal-Diamond LP',
     lpAddresses: {
       97: '',
       56: '0x7CA6751Ae5CB4676ace4c2AA0D039778642e2702',
     },
-    tokenSymbol: 'DBALL',
+    tokenSymbol: 'Coal',
     tokenAddresses: {
       97: '',
-      56: '0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9',
+      56: '0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8',
     },
     quoteTokenSymbol: QuoteToken.SENZU,
     quoteTokenAdresses: contracts.senzu,
@@ -53,15 +53,15 @@ const farms: FarmConfig[] = [
   {
     pid: 30,
     risk: 5,
-    lpSymbol: 'DBALL-USDT LP',
+    lpSymbol: 'Coal-USDT LP',
     lpAddresses: {
       97: '',
       56: '0x4a228A09B2ED4B9995b05F87bE60E7D4dCCf28C4',
     },
-    tokenSymbol: 'DBALL',
+    tokenSymbol: 'Coal',
     tokenAddresses: {
       97: '',
-      56: '0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9',
+      56: '0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8',
     },
     quoteTokenSymbol: QuoteToken.USDT,
     quoteTokenAdresses: contracts.usdt,
@@ -69,15 +69,15 @@ const farms: FarmConfig[] = [
   {
     pid: 31,
     risk: 5,
-    lpSymbol: 'DBALL-CAKE LP',
+    lpSymbol: 'Coal-CAKE LP',
     lpAddresses: {
       97: '',
       56: '0xeA28357967d1c80b86928DAE71609f1456CC9938',
     },
-    tokenSymbol: 'DBALL',
+    tokenSymbol: 'Coal',
     tokenAddresses: {
       97: '',
-      56: '0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9',
+      56: '0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8',
     },
     quoteTokenSymbol: QuoteToken.CAKE2,
     quoteTokenAdresses: contracts.cake2,
@@ -294,15 +294,15 @@ const farms: FarmConfig[] = [
     pid: 2,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'DBALL',
+    lpSymbol: 'Coal',
     lpAddresses: {
       97: '',
       56: '0x55d06D963CDc4405E204FB1585b45b5E8e353719', // EGG-BUSD LP
     },
-    tokenSymbol: 'DBALL',
+    tokenSymbol: 'Coal',
     tokenAddresses: {
       97: '',
-      56: '0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9',
+      56: '0xA6227a81CC18b35fEdd709F7FC9d1f3e0acDAdf8',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -515,12 +515,12 @@ const farms: FarmConfig[] = [
     pid: 32,
     risk: 1,
     isTokenOnly: true,
-    lpSymbol: 'SENZU',
+    lpSymbol: 'Diamond',
     lpAddresses: {
       97: '',
       56: '0xCb8e10cd31EBB2633425CD4f579221Ad126Da040', // DAI-BUSD LP
     },
-    tokenSymbol: 'SENZU',
+    tokenSymbol: 'Diamond',
     tokenAddresses: {
       97: '',
       56: '0xcba1813ede683333020cedea7c3b63fbac28e78e',

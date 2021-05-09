@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total MountainDeFi burned since launch"
+        "text": "Total Coal burned since launch"
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake MountainDeFi tokens, the contract will automatically harvest MountainDeFi rewards for you!"
+        "text": "Every time you stake and unstake Coal tokens, the contract will automatically harvest Coal rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "MountainDeFi price"
+        "text": "Coal price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 MountainDeFi = 1 SYRUP"
+        "text": "1 Coal = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of MountainDeFi block emissions each day (10 MountainDeFi per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of Coal block emissions each day (10 Coal per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% MountainDeFi"
+        "text": "%num% Coal"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend MountainDeFi to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend Coal to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% MountainDeFi Available"
+        "text": "%num% Coal Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 MountainDeFi"
+        "text": "Your amount must be a multiple of 10 Coal"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 MountainDeFi"
+        "text": "1 Ticket = 10 Coal"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your MountainDeFi cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your Coal cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "MountainDeFi prizes to be claimed"
+        "text": "Coal prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve MountainDeFi"
+        "text": "Approve Coal"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of MountainDeFi block emissions each day (10 MountainDeFi per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of Coal block emissions each day (10 Coal per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using MountainDeFi-BNB LP tokens, which means you need to stake equal amounts of MountainDeFi and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using Coal-BNB LP tokens, which means you need to stake equal amounts of Coal and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get MountainDeFi-BNB LP >"
+        "text": "Get Coal-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, MountainDeFi Finance burns the MountainDeFi."
+        "text": "The project gets the BNB, MountainDeFi Finance burns the Coal."
       }
     },
     {
@@ -645,25 +645,25 @@
     {
       "data": {
         "stringId": 534,
-        "text": "MountainDeFi Stats"
+        "text": "Coal Stats"
       }
     },
     {
       "data": {
         "stringId": 536,
-        "text": "Total MountainDeFi Supply"
+        "text": "Total Coal Supply"
       }
     },
     {
       "data": {
         "stringId": 538,
-        "text": "Total MountainDeFi Burned"
+        "text": "Total Coal Burned"
       }
     },
     {
       "data": {
         "stringId": 540,
-        "text": "New MountainDeFi\/block"
+        "text": "New Coal\/block"
       }
     },
     {
@@ -687,7 +687,7 @@
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting MountainDeFi"
+        "text": "Collecting Coal"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "MountainDeFi to Collect"
+        "text": "Coal to Collect"
       }
     },
     {
@@ -783,7 +783,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "MountainDeFi to burn (USD)"
+        "text": "Coal to burn (USD)"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest MountainDeFi rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest Coal rewards for you!"
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy MountainDeFi and BNB tokens"
+        "text": "Buy Coal and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get MountainDeFi-BNB LP tokens by adding MountainDeFi and BNB liquidity"
+        "text": "Get Coal-BNB LP tokens by adding Coal and BNB liquidity"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your MountainDeFi-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your Coal-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -867,7 +867,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for MountainDeFi, or keep for your collection!"
+        "text": "Trade in for Coal, or keep for your collection!"
       }
     },
     {
@@ -909,7 +909,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive MountainDeFi, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive Coal, you will lose access to it forever!"
       }
     },
     {
@@ -939,7 +939,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a MountainDeFi value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a Coal value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -981,7 +981,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for MountainDeFi"
+        "text": "Trade in for Coal"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn MountainDeFi"
+        "text": "Stake LP tokens to earn Coal"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The MountainDeFi Lottery"
+        "text": "The Coal Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with MountainDeFi"
+        "text": "Buy tickets with Coal"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback MountainDeFi and burn them 🔥"
+        "text": "Deposit Fee will be used to buyback Coal and burn them 🔥"
       }
     },
     {

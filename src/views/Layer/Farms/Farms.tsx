@@ -133,7 +133,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Hero>
         <div>
         <Heading as="h1" size="xxl" mb="16px">
-          Layer 1
+          Furnace
         </Heading>
         <ul>
           <li>{TranslateString(58000, 'Layered Farming is highly volatile')}</li>

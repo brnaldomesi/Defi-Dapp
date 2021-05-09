@@ -111,7 +111,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         }
       </Heading>
       {/* <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10000, 'Deposit Fee will be used to buyback DBALL')}
+        {TranslateString(10000, 'Deposit Fee will be used to buyback Coal')}
       </Heading> */}
       {/* <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         All Mines and Nodes have 2% Unstaking Fee
