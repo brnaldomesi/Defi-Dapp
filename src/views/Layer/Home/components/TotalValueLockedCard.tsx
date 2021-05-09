@@ -29,7 +29,7 @@ const TotalValueLockedCard = () => {
           {/* <Heading size="xl"> */}
             <CardValue value={totalValue.toNumber()} prefix="$" decimals={2}/>
           {/* </Heading> */}
-          <Text color="textSubtle">Across Layer 1</Text>
+          <Text color="textSubtle">Across Furnace</Text>
         </>
       </CardBody>
     </StyledTotalValueLockedCard>

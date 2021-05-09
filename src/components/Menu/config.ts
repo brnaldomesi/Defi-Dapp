@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.dragonballfinance.org/',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.dragonballfinance.org/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
       },
     ],
   },
@@ -92,7 +92,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com',
+        href: 'https://github.com/mountaindefi',
       },
       {
         label: 'Docs',

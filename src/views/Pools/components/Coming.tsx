@@ -39,7 +39,7 @@ const Coming: React.FC = () => {
   return (
     <Card>
       <div style={{ padding: '24px' }}>
-        <CardTitle>{TranslateString(414, 'Your Dball Project')}</CardTitle>
+        <CardTitle>{TranslateString(414, 'Your Coal Project')}</CardTitle>
         <Image src="/images/egg/2.png" width={64} height={64} alt="Your project" />
         <Balance>0.0</Balance>
         <Label>{TranslateString(416, 'Create a pool for your token')}</Label>
@@ -59,12 +59,12 @@ const Coming: React.FC = () => {
         </DetailPlaceholder>
         <DetailPlaceholder>
           <div style={{ flex: 1 }}>
-            <span role="img" aria-label="dball">
+            <span role="img" aria-label="Coal">
               🐲{' '}
             </span>
             {TranslateString(384, 'Your Stake')}:
           </div>
-          <Value>0 DBALL</Value>
+          <Value>0 Coal</Value>
         </DetailPlaceholder>
       </div>
       <Footer>

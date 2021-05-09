@@ -160,7 +160,7 @@ const Referrals: React.FC = () => {
           <Heading as="h1" size="xl" mb="22px">
           MountainDeFi Finance Referral Program
           </Heading> 
-          <Text>Share the referral link below to invite your friends and earn 1% of your friends earnings FOREVER!
+          <Text>Share the referral link below to invite your friends and earn 1.5% of your friends earnings FOREVER!
           </Text>
         </CardBody>
       </Hero>

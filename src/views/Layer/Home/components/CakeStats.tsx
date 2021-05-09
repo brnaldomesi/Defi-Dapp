@@ -41,10 +41,10 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(5340, 'SENZU Stats')}
+          {TranslateString(5340, 'Diamond Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(5360, 'Total SENZU Supply')}</Text>
+          <Text fontSize="14px">{TranslateString(5360, 'Total Diamond Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
@@ -52,11 +52,11 @@ const CakeStats = () => {
           <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(5380, 'Total SENZU Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(5380, 'Total Diamond Burned')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(5400, 'New SENZU/block')}</Text>
+          <Text fontSize="14px">{TranslateString(5400, 'New Diamond/block')}</Text>
           <Text bold fontSize="14px">{senzuPerBlock}</Text>
         </Row>
       </CardBody>

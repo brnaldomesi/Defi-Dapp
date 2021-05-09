@@ -67,7 +67,7 @@ const ApyCalculatorModal: React.FC<ApyCalculatorModalProps> = ({
         </GridItem>
         <GridItem>
           <Text fontSize="12px" bold color="textSubtle" textTransform="uppercase" mb="20px">
-            {TranslateString(9990, 'SENZU per $1000')}
+            {TranslateString(9990, 'Diamond per $1000')}
           </Text>
         </GridItem>
         {/* 1 day row */}
