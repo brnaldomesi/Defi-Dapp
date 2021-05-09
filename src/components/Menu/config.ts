@@ -40,11 +40,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/supersaiyanpool',
   },
-  {
+  /* {
     label: 'Lottery',
     icon: 'TicketIcon',
     href: '/Lottery',
-  },
+  }, */
   {
     label: 'Referrals',
     icon: 'TicketIcon',
