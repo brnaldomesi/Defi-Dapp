@@ -21,14 +21,13 @@ const Hero = styled.div`
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-size: contain;
-    background-image: url('/images/egg/3.png'), url('/images/egg/3b.png');
+    background-image: url('/images/egg/'), url('/images/egg/LogoTextNewWhite.png');
     background-position: left center, right center;
     background-repeat: no-repeat;
     height: 240px;
     padding-top: 0;
   }
 `
-
 
 const Cards = styled(BaseLayout)`
   align-items: stretch;
